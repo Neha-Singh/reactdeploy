@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Bar, Pie, Doughnut } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 import { useEffect } from "react";
-import Chart from "chart.js";
 
 function App() {
   useEffect(() => {
@@ -46,10 +44,6 @@ function App() {
         backgroundColor: ["#ff084a", "#F6BE00", "#006400"],
       },
     ],
-  };
-
-  const options = {
-    cutoutPercentage: 60,
   };
 
   const plugins = [
